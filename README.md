@@ -1,4 +1,4 @@
-# qCSS Randomizer
+# CSS Randomizer
 
 **Orthogonality- and weight-preserving random modification of HX/HZ for CSS-LDPC codes**
 
@@ -68,8 +68,8 @@ See [LICENSE](LICENSE) for details.
 ## 🧪 Repository structure
 
 ```
-qcss-randomizer/
-├── CSS_randomizer.py     # main script (orthogonality-preserving randomizer)
+css-randomizer/
+├── CSS-randomizer.py     # main script (orthogonality-preserving randomizer)
 ├── requirements.txt
 ├── LICENSE
 └── README.md
