@@ -647,7 +647,7 @@ def iterate_random_switches(HX_init: sp.csr_matrix, HZ_init: sp.csr_matrix,
         assert np.array_equal(cw_p, cw_0), "Column weights changed."
 
         # (F) Commit
-        HX, HZ = HXp, HZp
+        HZ, HX = HXp, HZp
         assert check_orthogonality(HX, HZ, where="committed"), "Orthogonality broken after commit."
 
     assert check_orthogonality(HX, HZ, where="end"), "Final HX, HZ are not orthogonal."
